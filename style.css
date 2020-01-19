@@ -1,0 +1,216 @@
+html {
+	scroll-behavior: smooth !important;
+	transition-delay: 1s;
+	transition: 3s;
+}
+body {
+	background-image: url(image/sky2.png);
+	background-size: none;
+	background-color: azure;
+	background-attachment: fixed;
+	color: black;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.nav {
+	background-color: teal;
+	color: white;
+	position: sticky;
+	width: 100%
+}
+
+.nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	font-size: 0px;
+
+
+}
+
+.nav ul li {
+	padding: 16px;
+	text-align: center;
+	font-size: 1.2rem;
+	border-bottom: 1px solid black;
+	transition: background-color 0.2s;
+}
+
+.nav ul li:hover {
+	background-color: black;
+}
+
+.image-area {
+	background-image: url(image/whale.jpg);
+	background-color: aquamarine;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 2px solid darkred;
+	border-top: 2px solid blue;
+}
+
+.centered-container {
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px 16px;
+}
+
+.image-text {
+	text-align:center;
+	background-color: none;
+	color: cyan;
+	font-size: 2.5rem;
+	text-shadow: 3px 2px blue;
+}
+
+.intro-text { 
+	color: #254117;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.second { 
+	color: black;
+	font-size: 1.5rem;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.third {
+	color: black;
+	font-size: 1rem;
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.third p{
+		padding: 0px 100px;
+}
+
+.single-service {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.single-service p {
+	padding: 0px 16px
+
+}
+
+.subtext {
+	color: #254117;
+	text-shadow: 1px black;
+	font-size: 1.5rem;
+}
+
+.textholder {
+	position: relative;
+	text-align: center;
+	color: green;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: teal;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: gray;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: lucida calligraphy;
+}
+
+img {
+	max-width: 50%;
+	max-height: 50%;
+}
+
+@media screen and (min-width: 700px) {
+	.nav {
+		position: fixed;
+		width: 100%;
+	}
+	.nav ul {
+		text-align: right;
+	}
+	.nav ul li{
+		display: inline-block;
+		border-bottom: 0px;
+		border-left: 1px solid black;
+		text-align: left;
+	}
+
+	.single-service {
+		width: 50%;
+		float: left;
+	}
+	.image-area {
+		background-image: url(image/sky2.png);
+		background-color: aquamarine;
+		background-position: center center;
+		background-size: cover;
+		padding-top: 200px;
+		padding-bottom: 200px;
+		border-bottom: 3px rood;
+		border-top: 3px solid blue;
+	}
+
+	.image-text {
+		color: #347235;
+		text-shadow: 3px 2px azure;
+	}
+
+	.intro-text { 
+		color: teal;
+	}
+	body {
+		background-image: url(image/sky.jpg);}
+	}
+
+	#scroll {
+		position: fixed;
+		margin: 10px;
+		padding: 7px;
+		color: white;
+		font-size: 16px;
+		background-color: teal;
+		border-radius: 5px;
+		border-width: 0px;
+		bottom: 0px;
+		right: 0px;
+		transition-delay: 0.5s;
+		transition: 0.5s;
+
+
+	}
+
+	#scroll:hover {
+		background-color: #1f456e;
+		cursor: pointer;
+		border: 1px solid black;
+	}
+
+* {cursor: url(http://cur.cursors-4u.net/games/gam-11/gam1090.ani), url(http://cur.cursors-4u.net/games/gam-11/gam1090.png), auto !important;}
